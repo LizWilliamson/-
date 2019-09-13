@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-header-contact">
+        <div class="main-header">
+            <div class="content-header">
+                <div class="img-logo">
+    
+                    <img class="logo" src="img/Unicorn.png" alt="">
+                </div>
+    
+                <div class="menu">
+                    <nav>
+    
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+                </div> 
+            </div>
+    
+            <div class="titles">
+                <h1>Unicorns</h1>
+                    
+    
+            </div>  
+        </div>
+    </header>
+
+    <section class="container">
+
+        <form action="#">
+            <h2>Checkbox</h2>
+            <input type="checkbox" name="AppleJack" value="AppleJack" id="AppleJack">AppleJack<br>
+            <label for="AppleJack">Scoop me Up a big bowl of AppleJacks</label>
+            <input type="checkbox" name="Rainbow Dash" value="Rainbow Dash">Rainbow Dash<br>
+            <input type="checkbox" name="Fluttersjy" value="Fluttershy">Fluttershy<br>
+
+            <h2>Radio Button</h2>
+            <input type="radio" name="radiobutton" value="Male">Male<br>
+            <input type="radio" name="radiobutton" value="Female">Female<br>
+            
+            <h2>Text</h2>
+
+            <legend>Personal Information
+            <p>First name:<input type="text" name="fname" maxlength="30" required></p>
+            <p>Last name:<input type="text" name="lname" maxlength="50"></p>
+
+            <p>Password: <input type="password" name="password" maxlength="15" size="25" required placeholder="Type password here"> </p>
+
+            <p>Website: <input type="url" name="website" required placeholder="http://..." pattern=""></p>
+            </legend>
+
+            <input type="submit" value="Value changes Text of Button">
+            <input type="reset" value="Start Over">
+            <input class="image" type="image" src="img/Unicorn.png" alt="">
+
+            <h2>Text Area</h2>
+
+            <textarea name="bigtext" id="" cols="80" rows="10">
+
+                Here is the  text area ...
+            </textarea>
+
+            <h2>Select</h2>
+
+            <select name="Country" size="5">
+                <option value="USA">United States</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Canada">Canada</option>
+
+
+            </select>
+
+            <input type="date" name="bday">
+            <input type="email" name="email">
+
+            Age: <input type="number" size="6" min="18" max="99" value="21">
+
+            satisfaction: <input type="range" name="Satisfaction" size="2" min="1"  max="5">
+
+
+
+        </form>
+    </section>
+
+</body>
+</html>
